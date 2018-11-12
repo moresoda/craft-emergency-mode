@@ -1,0 +1,26 @@
+{#
+/**
+ * Emergency! plugin for Craft CMS
+ *
+ * Emergency!Widget Settings
+ *
+ * @author    Moresoda
+ * @copyright Copyright (c) 2018 Moresoda
+ * @link      https://moresoda.co.uk
+ * @package   Emergency
+ * @since     1
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "emergency/css/Emergency_Style.css" %}
+{% includeJsResource "emergency/js/Emergency_Script.js" %}
+
+{{ forms.textField({
+    label: 'Some Setting',
+    instructions: 'Enter some setting here.',
+    id: 'someSetting',
+    name: 'someSetting',
+    value: settings['someSetting']})
+}}

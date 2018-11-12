@@ -1,0 +1,34 @@
+{#
+/**
+ * Emergency! plugin for Craft CMS
+ *
+ * Emergency! Settings.twig
+ *
+ * @author    Moresoda
+ * @copyright Copyright (c) 2018 Moresoda
+ * @link      https://moresoda.co.uk
+ * @package   Emergency
+ * @since     1
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+
+{{ forms.lightswitchField({
+    label: 'Activate emergency page',
+    id: 'emergencyactivate',
+    name: 'emergencyactivate',
+    on: settings['emergencyactivate'],
+    instructions: 'Turn this on to send ALL visits to the emergency page',
+    value: settings['emergencyactivate']
+}) }}
+
+
+{{ forms.textField({
+    label: 'Template path to use',
+    id: 'emergencytemplate',
+    name: 'emergencytemplate',
+    value: settings['emergencytemplate'],
+    instructions: 'Path to your emergency template (make sure it\s a hidden template)'
+}) }}

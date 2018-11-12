@@ -1,0 +1,41 @@
+/**
+ * Emergency! plugin for Craft CMS
+ *
+ * Emergency! CSS
+ *
+ * @author    Moresoda
+ * @copyright Copyright (c) 2018 Moresoda
+ * @link      https://moresoda.co.uk
+ * @package   Emergency
+ * @since     1
+ */
+
+ #emergencyBanner {
+	 padding: 1rem 1.5rem;
+	 font-style: bold;
+	 background: #db000e;
+	 background: repeating-linear-gradient(-45deg, #b20005, #b20005 20px, #8e0007 20px, #8e0007 40px);
+	 background-repeat: no-repeat;
+	 color: #fff;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: flex-start;
+	 align-items: center;
+ }
+
+ #emergencyBanner a {
+	 color: #fff;
+	 text-decoration: underline;
+ }
+
+ #emergencyBanner p {
+	 font-size: 1rem;
+	 margin: 0.25rem;
+ }
+
+
+
+ #emergencyIcon {
+	 width: 2rem;
+	 height: 2rem;
+ }

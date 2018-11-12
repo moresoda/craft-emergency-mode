@@ -1,0 +1,14 @@
+{
+	"name": "moresoda/emergency",
+	"description": "Emergency route - show a custom emergency page when visitors come to your site",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Moresoda",
+			"homepage": "https://moresoda.co.uk"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
