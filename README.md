@@ -20,11 +20,11 @@ Emergency Mode allows you to route all requests for your site to an Emergency te
 
 From the plugin settings screen, configure the path to your desired template.
 
-## Using Emergency!
+## Using Emergency Mode
 
 To enable Emergency Mode, flick the switch in the plugin settings. A banner will be shown in the Control Panel when Emergency Mode is active.
 
-## Emergency! Roadmap
+## Emergency Mode Roadmap
 
 Some things to do, and ideas for potential features:
 
